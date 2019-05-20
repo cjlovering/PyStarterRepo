@@ -1,10 +1,10 @@
 # README
 
-## why?
+## Why?
 
-Using this setup will format your code at each commit, and help maintain a readable and uniform format with no additional efforts.
+Using this setup will format your code at each commit, and help maintain a readable and uniform format with little additional effort.
 
-## how?
+## How?
 
 ```bash
 
@@ -12,9 +12,9 @@ pip install -r requirements.txt
 pre-commit install
 ```
 
-Now, proceed to use git as normal.
+Now, proceed to use git as normal: each commit requires code-compliant code. If the pre-commit hooks fail, you will have to commit again. Note that flake8 warnings are not enforced. 
 
-## resources
+## Resources
 
 See the following sources for more details:
 
