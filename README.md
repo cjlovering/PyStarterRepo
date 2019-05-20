@@ -12,7 +12,7 @@ pip install -r requirements.txt
 pre-commit install
 ```
 
-Now, proceed to use git as normal: each commit requires code-compliant code. If the pre-commit hooks fail, you will have to commit again. Note that flake8 warnings are not enforced. 
+Now, proceed to use git as normal: each commit requires code-compliant code. If the pre-commit hooks fail, you will have to commit again.
 
 ## Resources
 
